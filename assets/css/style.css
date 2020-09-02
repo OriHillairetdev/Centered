@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200&display=swap');
 
 
-@media only screen and (device-width: 1280px),
-only screen and (max-width:1280px) {
-.css-element {
-display:block;
-}
-   }
+
+   
 #wholepage { position:absolute; margin:0px; width:100%; }
+
+
+.wrap{
+    
+    
+}
 
 a, a:hover, a:focus, a:active {
       text-decoration: none;
@@ -163,6 +165,7 @@ hr{
     font-size: 50px;
     color:black;
     margin-bottom: 20px;
+    margin-top: 20px
 }
 
 #about-me {
@@ -278,6 +281,24 @@ footer{
     display: flex;
     
 }
+
+    .container { 
+    width: auto; /* pick whatever width you want */
+}
+.container .outer {
+    width: 100%;
+    padding-top: 75%; /* defines aspect ratio */
+    position: relative;
+}
+.container .outer .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
   #club-ethos{
     width: 65%;
     height: 1100px;
@@ -319,7 +340,7 @@ footer{
 
   
 
- @media screen and (max-width:400px){
+ @media screen and (max-width:1050px){
 
      .header {
     margin-bottom: 150px;
@@ -377,6 +398,46 @@ footer{
       }
 
   } 
-
-  
+    @media screen and (max-width: 425px){
+          .header {
+    margin-bottom: 150px;
+    padding: 10px;
+    text-align: center;
+    background: rgb(49, 231, 92);
+    color: white;
+    font-size: 30px;
+    height: 300px;
+    font-family: 'Macondo Swash Caps', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+    @media screen and (max-width: 425px){
+          .header {
+    margin-bottom: 150px;
+    padding: 10px;
+    text-align: center;
+    background: rgb(49, 231, 92);
+    color: white;
+    font-size: 30px;
+    height: 300px;
+    font-family: 'Macondo Swash Caps', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+    @media screen and (max-width: 425px){
+          .header {
+    margin-bottom: 150px;
+    padding: 10px;
+    text-align: center;
+    background: rgb(49, 231, 92);
+    color: white;
+    font-size: 30px;
+    height: 300px;
+    font-family: 'Macondo Swash Caps', cursive;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
 }
