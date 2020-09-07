@@ -3,13 +3,10 @@
 
 
    
-#wholepage { position:absolute; margin:0px; width:100%; }
 
 
-.wrap{
-    
-    
-}
+
+
 
 a, a:hover, a:focus, a:active {
       text-decoration: none;
@@ -17,13 +14,13 @@ a, a:hover, a:focus, a:active {
  }
 
 .header {
-    margin-bottom: 150px;
+    margin-bottom: 10%;
     padding: 10px;
     text-align: center;
     background: rgb(49, 231, 92);
     color: white;
-    font-size: 90px;
-    height: 300px;
+    font-size: 100%;
+    height: 15%;
     font-family: 'Macondo Swash Caps', cursive;
     align-items: center;
     justify-content: center;
@@ -80,15 +77,16 @@ line-height: 75px;
 }
 
 #left-about{
-  padding-top: 30px;
+  padding-top: 5%;
   width: 33%;
   float: left;
+  
   
   
 }
 
 #right-about{
-  padding-top: 30px;
+  padding-top: 5%;
   width: 33%;
   float: right;
 
@@ -144,7 +142,7 @@ hr{
 }
 
 #circle-container{
-  width: 300px;
+  width: auto;
   height: 300px;
   padding: 30px;
   border-style: solid;
@@ -185,11 +183,11 @@ hr{
 
 
 .button {
-        background-color: rgb(49, 231, 92);
+        background-color:  rgb(49, 231, 92);
         color: #FFFFFF;
         text-align: center;
         font-size: 40px;
-        width:400px;
+        width:auto;
         height: 100px;
         padding: 10px;
         border-radius: 10px;
@@ -267,18 +265,117 @@ footer{
 
 @media screen and (max-width: 1393px) {
 
-    .header {
-    margin-bottom: 150px;
-    padding: 10px;
-    text-align: center;
-    background: rgb(49, 231, 92);
-    color: white;
-    font-size: 90px;
-    height: 300px;
-    font-family: 'Macondo Swash Caps', cursive;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+   
+
+    .container { 
+    width: auto; /* pick whatever width you want */
+}
+.container .outer {
+    width: 100%;
+    padding-top: 75%; /* defines aspect ratio */
+    position: relative;
+}
+.container .outer .inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+  #club-ethos{
+    width: 65%;
+    height: 1100px;
+    margin: 0 auto;
+  }
+
+  #welcome{
+    padding: 30px 0;
+    margin-top: 0;
+  }
+
+  #left-about,#right-about{
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  
+  #center-about {
+    clear: both;
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+
+  hr{
+    display: none;
+  }
+
+  #times div {
+    width: 100%;
+    clear: both;
+    height: 150%;
+    border-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #fff;
+    padding: 0;
+  
+  }
+
+  
+
+ @media screen and (max-width:1366px){
+
+    
+      #menu{
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height:25px;
+      }
+
+      #cover-text{
+        left: 0px;
+      }
+
+      #club-ethos{
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+
+      }
+
+      .right-about-heading, .left-about-heading {
+        width: inherit;
+      } 
+
+
+      .right-about-heading h2 , .left-about-heading h2 {
+          width: 100%;
+          text-align: center;
+          
+          
+      }
+
+      .left-about-heading p , .right-about-heading p {
+        text-align: center;
+        padding: 0 20px 0 20px;
+        
+      }
+
+      #send-email {
+          text-align: center;
+      }
+
+  } 
+   
+
+
+
+    @media screen and (max-width: 1025px) and (min-width:329px){
+        
     
 }
 
@@ -342,18 +439,6 @@ footer{
 
  @media screen and (max-width:1366px){
 
-     .header {
-    margin-bottom: 150px;
-    padding: 10px;
-    text-align: center;
-    background: rgb(49, 231, 92);
-    color: white;
-    font-size: 30px;
-    height: 300px;
-    font-family: 'Macondo Swash Caps', cursive;
-    align-items: center;
-    justify-content: center;
-    display: flex;
     
 }
       #menu{
@@ -397,47 +482,7 @@ footer{
           text-align: center;
       }
 
-  } 
-    @media screen and (max-width: 425px){
-          .header {
-    margin-bottom: 150px;
-    padding: 10px;
-    text-align: center;
-    background: rgb(49, 231, 92);
-    color: white;
-    font-size: 30px;
-    height: 300px;
-    font-family: 'Macondo Swash Caps', cursive;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    }
-    @media screen and (max-width: 425px){
-          .header {
-    margin-bottom: 150px;
-    padding: 10px;
-    text-align: center;
-    background: rgb(49, 231, 92);
-    color: white;
-    font-size: 30px;
-    height: 300px;
-    font-family: 'Macondo Swash Caps', cursive;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    }
-    @media screen and (max-width: 425px){
-          .header {
-    margin-bottom: 150px;
-    padding: 10px;
-    text-align: center;
-    background: rgb(49, 231, 92);
-    color: white;
-    font-size: 30px;
-    height: 300px;
-    font-family: 'Macondo Swash Caps', cursive;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    }
 }
+    
+    
+    
