@@ -329,6 +329,13 @@ footer{
     padding: 0;
   
   }
+  #uncertain-times{
+    text-align: center;
+    font-size: 55px;
+    color:black;
+    margin-bottom: 20px;
+    
+}
 
   
 
@@ -381,7 +388,7 @@ footer{
 
 
 
-    @media screen and (max-width: 1025px) and (min-width:329px){
+    @media screen and (max-width: 1024px) and (min-width:329px){
        
     
 }
@@ -441,6 +448,13 @@ footer{
     padding: 0;
   
   }
+  #uncertain-times{
+    text-align: center;
+    font-size: 47px;
+    color:black;
+    margin-bottom: 20px;
+    
+}
 
   
 
@@ -528,7 +542,7 @@ footer{
 }
 #uncertain-times{
     text-align: center;
-    font-size: 46px;
+    font-size: 65px;
     color:black;
     margin-bottom: 20px;
     
