@@ -25,6 +25,7 @@ a, a:hover, a:focus, a:active {
     align-items: center;
     justify-content: center;
     display: flex;
+    padding-left: 0; 
     
 }
 
@@ -214,7 +215,7 @@ hr{
 
     .testi-name{
         text-align: center;
-        font-size: 15px;
+        font-size: 20px;
         color:rgb(31, 31, 31);
         margin-top: 50px;
         margin-bottom: 50px;
@@ -223,7 +224,7 @@ hr{
     
     .testi-content{
         text-align: center;
-        font-size: 10px;
+        font-size: 16px;
         color: rgb(31, 31, 31);
         margin-top: 50px;
         margin-bottom: 50px;
@@ -510,8 +511,8 @@ footer{
 
  @media screen and (min-width:375px){
             #circle-container{
-  width: 200px;
-  height: 200px;
+  width: 185px;
+  height: 185px;
   padding: 30px;
   border-style: solid;
   border-color: #cccccc;
