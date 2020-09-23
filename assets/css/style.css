@@ -531,8 +531,8 @@ footer{
 
  @media screen and (min-width:375px){
             #circle-container{
-  width: 185px;
-  height: 185px;
+  width: 150px;
+  height: 150px;
   padding: 30px;
   border-style: solid;
   border-color: #cccccc;
