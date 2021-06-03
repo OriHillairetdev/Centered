@@ -162,18 +162,22 @@ hr{
   background: url("../img/center-tree-image.jpg") no-repeat center center;
   height: 100%;
   border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .header2{
-      color: #333333;
+      color: rgb(0, 190, 44);
 line-height: 2;
 letter-spacing: 2px;
 word-spacing: 2px;
 text-align: center;
 text-decoration: none;
 text-transform: capitalize;
-font-size: 200%;
+font-size: 280%;
 font-weight: 900;
+
 }
 
 .description1{
@@ -267,6 +271,21 @@ text-decoration: none;
 text-transform: none;
 font-weight: 1000;
 }
+#genuislogo{
+  text-align: center center;
+  max-width: 20%;
+  height: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#genuislogo img{
+  
+  max-width: 100%;
+  height: auto;
+}
+
 .links{
       color: #0e1450;
 line-height: 2;
