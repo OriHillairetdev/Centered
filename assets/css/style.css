@@ -14,7 +14,7 @@ a, a:hover, a:focus, a:active {
  }
 
 .header {
-    margin-bottom: 10%;
+    margin-bottom: 3%;
     padding: 30px;
     text-align: center;
     background: rgb(32, 141, 58);
@@ -164,30 +164,119 @@ hr{
   border-radius: 50%;
 }
 
-#uncertain-times{
-   
-    text-align: center;
-    font-size: 19px;
-    color:black;
-    margin-bottom: 20px;
-    
+.header2{
+      color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: capitalize;
+font-size: 200%;
+font-weight: 900;
 }
 
-#about-me {
- text-align: center;
- font-size: 20px;
- color: black;
+.description1{
+    color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;
 }
 
-#looking-forward {
- text-align: center;
- font-size: 20px;
- color: black;
- margin-top: 50px;
- margin-bottom: 50px;
+.description2{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;
 }
 
+.description3{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;
+}
 
+.description4{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: capitalize;
+font-weight: 1000;
+}
+
+.description5{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;   
+}
+
+.description6{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;  
+}
+
+.description7{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;  
+}
+
+.description8{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;   
+}
+
+.description9{
+   color: #333333;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;
+font-weight: 1000;
+}
+.links{
+      color: #0e1450;
+line-height: 2;
+letter-spacing: 2px;
+word-spacing: 2px;
+text-align: center;
+text-decoration: none;
+text-transform: none;
+font-weight: 1000;
+}
 
 .button {
         background-color:  rgb(49, 231, 92);
