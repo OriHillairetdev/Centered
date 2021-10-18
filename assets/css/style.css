@@ -6,10 +6,7 @@
 
 
 
-a, a:hover, a:focus, a:active {
-      text-decoration: none;
-      color: inherit;
- }
+
 
 .header {
     margin-bottom: 3%;
@@ -32,8 +29,8 @@ a, a:hover, a:focus, a:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
- 
+  width: 90%;
+ text-align: center;
 }
 
 .main-image{
@@ -43,22 +40,25 @@ a, a:hover, a:focus, a:active {
   display: block;
 }
 
-* {
-  box-sizing: border-box;
-}
 
-* {box-sizing:border-box}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 40%;
   position: relative;
   margin: auto;
 }
 
-/* Hide the images by default */
-.mySlides {
-  display: none;
+.slideshow-container-two {
+  max-width: 40%;
+  position: relative;
+  margin: auto;
 }
 
 /* Next & previous buttons */
@@ -67,8 +67,8 @@ a, a:hover, a:focus, a:active {
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -22px;
   padding: 16px;
+  margin-top: -22px;
   color: white;
   font-weight: bold;
   font-size: 18px;
@@ -126,665 +126,45 @@ a, a:hover, a:focus, a:active {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
+  -webkit-animation-name:2;
   -webkit-animation-duration: 1.5s;
-  animation-name: fade;
+  animation-name:2;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
+@-webkit-keyframes2 {
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
-@keyframes fade {
-  from {opacity: .4}
+@keyframes2 {
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
-/* old stuff*/
-
-*{
-  margin: 0;
-  padding: 0;
-  border: 0;
-
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 
-body {
- font-family: Lato;
- color: #777777;
-}
-h2 {
-  font-family: Oswald;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: #555555;
-}
 
-#logo{
-  float:left;
-  font-size:280%;
-  margin-left: 30px;
-}
-
-#menu{
-  font-size: 110%;
-  list-style: none;
-  letter-spacing: 4px;
-}
-
-#logo, #menu{
-line-height: 75px;
-
-}
-
-#club-ethos{
-  height: 600px;
+@media screen and (min-width: 2560px) {
   
-}
-
-#welcome{
-    color: rgb(0, 190, 44)
-}
-
-#left-about{
-  padding-top: 5%;
-  width: 33%;
-  float: left;
-  
-  
-  
-}
-
-#right-about{
-  padding-top: 5%;
-  width: 33%;
-  float: right;
-    
-}
-
-#center-about{
-  width: 33%;
-  margin: 0 auto;
-  
-  margin-bottom:0px;
-  
-}
-hr{
-  border-top: 1px solid #777777;
-  width: 100%;
- margin: 5px 0;
-}
-
-.left-about-heading {
-  width: 50%;
-  float: right;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 10%;
-  
-  
-}
-
-.left-about-heading h2{
-    color: rgb(0, 190, 44)
-}
-
-.right-about-heading{
-  width: 50%;
-  float: left;
-  line-height: 20px;
-  clear: both;
-  margin-bottom: 10%;
-  
-  
-  
-}
-
-.right-about-heading h2 {
-  text-align: right;
-  color: rgb(0, 190, 44);
-}
-
-.right-about-heading p {
-  text-align: right;
-}
-
-#welcome {
-  margin: 20px 0;
-  text-align: center;
-  font-size: 280%;
-}
-
-#circle-container{
-  width: 300px;
-  height: 300px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
-  overflow: auto;
-}
-
-#circle-bg{
-  background: url("../img/center-tree-image.jpg") no-repeat center center;
-  height: 100%;
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header2{
-      color: rgb(0, 190, 44);
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: capitalize;
-font-size: 280%;
-font-weight: 900;
-
-}
-
-.description1{
-    color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;
-}
-
-.description2{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;
-}
-
-.description3{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;
-}
-
-.description4{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: capitalize;
-font-weight: 1000;
-}
-
-.description5{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;   
-}
-
-.description6{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;  
-}
-
-.description7{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;  
-}
-
-.description8{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;   
-}
-
-.description9{
-   color: #333333;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;
-font-weight: 1000;
-}
-#genuislogo{
-  text-align: center center;
-  max-width: 20%;
-  height: 20%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#genuislogo img{
-  
-  max-width: 100%;
-  height: auto;
-}
-
-.links{
-      color: #0e1450;
-line-height: 2;
-letter-spacing: 2px;
-word-spacing: 2px;
-text-align: center;
-text-decoration: none;
-text-transform: none;
-font-weight: 1000;
-}
-
-.button {
-        background-color:  rgb(49, 231, 92);
-        color: #FFFFFF;
-        text-align: center;
-        font-size: 40px;
-        width:auto;
-        height: 100px;
-        padding: 10px;
-        border-radius: 10px;
-        margin-top: 50px;
-        display: block;
-        margin:0 auto;
-        
-    }
-
-    button:hover{
-     color: black;
-    -webkit-transition: all 0.4s;
-    -moz-transition: all 0.4s;
-    transition: all 0.4s;
-    }
-    .testi-title{
-        text-align: center;
-        font-size: 20px;
-        color: rgb(31, 31, 31);
-        margin-top: 50px;
-        margin-bottom: 50px;
-        text-decoration: underline solid;
-    }
-
-    .testi-name{
-        text-align: center;
-        font-size: 20px;
-        color:rgb(31, 31, 31);
-        margin-top: 50px;
-        margin-bottom: 50px;
-        text-decoration: underline solid;
-    }
-    
-    .testi-content{
-        text-align: center;
-        font-size: 16px;
-        color: rgb(31, 31, 31);
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 20%;
-        margin-right:20%;
-    }
-
-
-footer{
-  height: 150px;
-
-}
-
-.social-networks{
-  text-align: center;
-}
-
-.social-networks li{
-  display: inline;
-}
-
-.social-networks i {
-  font-size: 160%;
-  margin: 1%;
-  padding: 5%;
-  color: #777777;
-}
-
-#photo{
-  clear: both;
-  line-height: 0;
-  column-count: 4;
-  column-gap: 0;
-}
-
-#photo img{
-  width: 100%;
-}
-
-@media screen and (max-width: 1393px) {
-
-   
-
-    .container { 
-    width: auto; /* pick whatever width you want */
-}
-.container .outer {
-    width: 100%;
-    padding-top: 75%; /* defines aspect ratio */
-    position: relative;
-}
-.container .outer .inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-
-  #club-ethos{
-    width: 65%;
-    height: 40%;
-    margin: 0 auto;
+  .img-container{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2500px;
+   text-align: center;
   }
 
-  #welcome{
-    padding: 30px 0;
-    margin-top: 0;
-  }
-
-  #left-about,#right-about{
-    width: 100%;
-    float: left;
-    padding: 0;
+  .main-image{
+  
+    max-width: 100%;
+    height: auto;
+    display: block;
   }
   
-  #center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  hr{
-    display: none;
-  }
-
-  #times div {
-    width: 100%;
-    clear: both;
-    height: 150%;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #fff;
-    padding: 0;
-  
-  }
-  #uncertain-times{
-    text-align: center;
-    font-size: 55px;
-    color:black;
-    margin-bottom: 20px;
-    
 }
 
   
-
- @media screen and (max-width:1366px){
-
-    
-      #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height:25px;
-      }
-
-      #cover-text{
-        left: 0px;
-      }
-
-      #club-ethos{
-        width: 90%;
-        height: 50%;
-        margin: 0 auto;
-
-      }
-
-      .right-about-heading, .left-about-heading {
-        width: inherit;
-      } 
-
-
-      .right-about-heading h2 , .left-about-heading h2 {
-          width: 100%;
-          text-align: center;
-          
-          
-      }
-
-      .left-about-heading p , .right-about-heading p {
-        text-align: center;
-        padding: 0 20px 0 20px;
-        
-      }
-
-      #send-email {
-          text-align: center;
-      }
-
-  } 
-   
-
-
-
-    @media screen and (max-width: 1024px) and (min-width:329px){
-       
-    
-}
-
-    .container { 
-    width: auto; /* pick whatever width you want */
-}
-.container .outer {
-    width: 100%;
-    padding-top: 75%; /* defines aspect ratio */
-    position: relative;
-}
-.container .outer .inner {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-}
-
-
-  #club-ethos{
-    width: 65%;
-    height: 50%;
-    margin: 0 auto;
-  }
-
-  #welcome{
-    padding: 30px 0;
-    margin-top: 0;
-  }
-
-  #left-about,#right-about{
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-  
-  #center-about {
-    clear: both;
-    width: 100%;
-    float: left;
-    padding: 0;
-  }
-
-  hr{
-    display: none;
-  }
-
-  #times div {
-    width: 100%;
-    clear: both;
-    height: 150%;
-    border-style: solid;
-    border-bottom-width: 1px;
-    border-bottom-color: #fff;
-    padding: 0;
-  
-  }
-  #uncertain-times{
-    text-align: center;
-    font-size: 47px;
-    color:black;
-    margin-bottom: 20px;
-    
-}
-
-  
-
- @media screen and (max-width:1366px){
-
-    
-}
-      #menu{
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height:25px;
-      }
-
-      #cover-text{
-        left: 0px;
-      }
-
-      #club-ethos{
-        width: 90%;
-        height: 50%;
-        margin: 0 auto;
-
-      }
-
-      .right-about-heading, .left-about-heading {
-        width: inherit;
-      } 
-
-
-      .right-about-heading h2 , .left-about-heading h2 {
-          width: 100%;
-          text-align: center;
-          
-          
-      }
-
-      .left-about-heading p , .right-about-heading p {
-        text-align: center;
-        padding: 0 20px 0 20px;
-        
-      }
-
-      #send-email {
-          text-align: center;
-      }
-
-
- @media screen and (max-width:320px){
-            #circle-container{
-  width: 200px;
-  height: 200px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
-
-}
-
-#uncertain-times{
-    text-align: center;
-    font-size: 29px;
-    color:black;
-    margin-bottom: 20px;
-    
-}
-
-
-
- }
-
- @media screen and (min-width:375px){
-            #circle-container{
-  width: 150px;
-  height: 150px;
-  padding: 30px;
-  border-style: solid;
-  border-color: #cccccc;
-  border-width: 1px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-#uncertain-times{
-    text-align: center;
-    font-size: 65px;
-    color:black;
-    margin-bottom: 20px;
-    
-}
-#about-me {
- text-align: center;
- font-size: 20px;
- color: black;
-}
-
-#looking-forward {
- text-align: center;
- font-size: 15px;
- color: black;
- margin-top: 50px;
- margin-bottom: 50px;
-}
-
-
- }
-
-
-}
-    
-    
-    
