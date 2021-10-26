@@ -8254,7 +8254,7 @@ h1, h2, h3, h4, h5,
       .owl-carousel .owl-nav .owl-next p span,
       .owl-carousel .owl-nav .owl-next p small {
         display: block;
-        color: #000;
+        color: rgb(114,216,135);
         line-height: .8;
         -webkit-transition: 0.3s;
         -o-transition: 0.3s;
@@ -8336,7 +8336,7 @@ h1, h2, h3, h4, h5,
   height: 700px; }
 
 .work-wrap .text {
-  background: #fff3f1; }
+  background: rgb(114,216,135); }
   .work-wrap .text h2 {
     font-size: 60px;
     font-weight: 800;
