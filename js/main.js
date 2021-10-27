@@ -15,13 +15,13 @@
 	var carousel = function() {
 		$('.featured-carousel').owlCarousel({
 	    loop:true,
-	    autoplay: true,
-	    margin:30,
+		autoplay: false,
+    	margin:30,
 	    animateOut: 'fadeOut',
 	    animateIn: 'fadeIn',
 	    nav:true,
 	    dots: true,
-	    autoplayHoverPause: false,
+	    autoplayHoverPause: true,
 	    items: 1,
 	    navText : ["<p><small>Prev</small><span class='ion-ios-arrow-round-back'></span></p>","<p><small>Next</small><span class='ion-ios-arrow-round-forward'></span></p>"],
 	    responsive:{
