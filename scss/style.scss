@@ -13,7 +13,7 @@ body{
 	color: lighten($black, 50%);
 }
 a {
-	transition: .3s all ease;
+	transition: .10s all ease;
 	color: $primary;
 	&:hover, &:focus {
 		text-decoration: none !important;
@@ -22,7 +22,7 @@ a {
 	}
 }
 button {
-	transition: .3s all ease;
+	transition: 10s all ease;
 	&:hover, &:focus {
 		text-decoration: none !important;
 		outline: none !important;
@@ -98,7 +98,7 @@ h1, h2, h3, h4, h5,
 					display: block;
 					color: $black;
 					line-height: .8;
-					@include transition(.3s);
+					@include transition(10s);
 				}
 			}
 			small{
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5,
 				line-height: 0;
 				&:before {
 					font-size: 40px;
-					@include transition(.3s);
+					@include transition(10s);
 				}
 			}
 			opacity: 1;

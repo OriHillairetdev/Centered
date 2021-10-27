@@ -4375,9 +4375,9 @@ input[type="button"].btn-block {
   text-align: center;
   white-space: nowrap;
   background-color: #007bff;
-  -webkit-transition: width 0.6s ease;
-  -o-transition: width 0.6s ease;
-  transition: width 0.6s ease; }
+  -webkit-transition: width 010s ease;
+  -o-transition: width 010s ease;
+  transition: width 010s ease; }
   @media (prefers-reduced-motion: reduce) {
     .progress-bar {
       -webkit-transition: none;
@@ -5139,11 +5139,11 @@ a.close.disabled {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  -webkit-transition: -webkit-transform 0.6s ease-in-out;
-  transition: -webkit-transform 0.6s ease-in-out;
-  -o-transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out;
-  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; }
+  -webkit-transition: -webkit-transform 010s ease-in-out;
+  transition: -webkit-transform 010s ease-in-out;
+  -o-transition: transform 010s ease-in-out;
+  transition: transform 010s ease-in-out;
+  transition: transform 010s ease-in-out, -webkit-transform 010s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
     .carousel-item {
       -webkit-transition: none;
@@ -5186,9 +5186,9 @@ a.close.disabled {
 .carousel-fade .active.carousel-item-right {
   z-index: 0;
   opacity: 0;
-  -webkit-transition: 0s 0.6s opacity;
-  -o-transition: 0s 0.6s opacity;
-  transition: 0s 0.6s opacity; }
+  -webkit-transition: 0s 010s opacity;
+  -o-transition: 0s 010s opacity;
+  transition: 0s 010s opacity; }
   @media (prefers-reduced-motion: reduce) {
     .carousel-fade .active.carousel-item-left,
     .carousel-fade .active.carousel-item-right {
@@ -5284,9 +5284,9 @@ a.close.disabled {
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     opacity: .5;
-    -webkit-transition: opacity 0.6s ease;
-    -o-transition: opacity 0.6s ease;
-    transition: opacity 0.6s ease; }
+    -webkit-transition: opacity 010s ease;
+    -o-transition: opacity 010s ease;
+    transition: opacity 010s ease; }
     @media (prefers-reduced-motion: reduce) {
       .carousel-indicators li {
         -webkit-transition: none;
