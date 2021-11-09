@@ -59,7 +59,7 @@
   .main-image{    
     max-width: 100%;
     height: auto;
-    display: block;
+    left: 50%;
   }
   
  /* Style the header with a grey background and some padding */
