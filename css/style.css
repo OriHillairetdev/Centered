@@ -8490,10 +8490,11 @@ h1, h2, h3, h4, h5,
 	display: inline-block;
 	background: red;
 	color: white;
-	height: 2rem;
-	width: 2rem;
-	line-height: 2rem;
+	height: 1rem;
+	width: 1rem;
+	line-height: 1rem;
 	text-align: center;
+  font-size: 5px;
 	transform: rotate(-20deg);
   border-radius: 50%;
 }
