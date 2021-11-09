@@ -8483,3 +8483,17 @@ h1, h2, h3, h4, h5,
 .tooltip:hover .tooltiptext {
   visibility: visible;
 }
+
+
+.sale {
+	position: relative;
+	display: inline-block;
+	background: red;
+	color: white;
+	height: 2rem;
+	width: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	transform: rotate(-20deg);
+  border-radius: 50%;
+}
